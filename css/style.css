@@ -9,3 +9,14 @@ body {
   padding: 50px;
   border-radius: 10px;
 }
+
+.cabecalho {
+  text-align: center;
+  color: #fff;
+  margin: 100px auto;
+  padding: 30px;
+}
+
+.logo img {
+  width: 200px;
+}
