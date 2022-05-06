@@ -1,10 +1,12 @@
 .background {
   background-color: #262d4c;
   background-image: url(../img/background-foods-v4.png);
+  /* esse de baixo fz com que a img de fundo fique parada ao scrollar */
   background-attachment: fixed;
 }
 
 .conteudo {
+  line-height: 3rem;
   width: 72%;
   background-color: #fff;
   /* box-shadow: #494949; */
@@ -48,11 +50,11 @@
   text-decoration: underline;
 }
 
-/* referenciar a tag dentro da classe, ai nao precisa criar mais classes :p */
-.conteudo img {
+.avatar {
   float: left;
   width: 140px;
   padding: 20px;
+  margin-right: 20px;
 }
 
 .fonte--media {
@@ -62,4 +64,14 @@
 .titulo {
   font-size: 1.9rem;
   margin-top: 50px;
+}
+
+.habilidades label {
+  width: 300px;
+  display: inline-block;
+}
+
+.habilidades progress {
+  /* muda a cor da barra de progresso */
+  accent-color: #2e2d4c;
 }
