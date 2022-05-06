@@ -120,3 +120,24 @@ body {
   color: #fff;
   text-align: center;
 }
+
+.logotipo {
+  color: #2e2d4c;
+  position: absolute;
+  transform: translateX(50%);
+  font-size: 1.8rem;
+  right: 50%;
+  z-index: 1;
+  padding-top: 10px;
+}
+
+.logotipo.fundo {
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  float: right;
+  /* precisa das duas prop abaixo juntas para q o elemeto fique exatamente no centro*/
+  margin-right: 50%;
+  margin-top: -50px;
+  transform: translateX(50%) rotate(45deg);
+}
