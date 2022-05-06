@@ -97,6 +97,7 @@ body {
 
 .btn-inicio {
   font-size: 3rem;
+  border-radius: 50%;
   /* color: #fff; */
   width: 65px;
   height: 65px;
@@ -107,6 +108,7 @@ body {
   bottom: 20px;
   right: 20px;
   opacity: 0.3;
+  z-index: 1;
 }
 
 .btn-inicio:hover {
@@ -124,11 +126,11 @@ body {
 .logotipo {
   color: #2e2d4c;
   position: absolute;
+  right: 50%;
   transform: translateX(50%);
   font-size: 1.8rem;
-  right: 50%;
-  z-index: 1;
   padding-top: 10px;
+  z-index: 1;
 }
 
 .logotipo.fundo {
