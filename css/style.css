@@ -1,11 +1,14 @@
-body {
+.background {
   background-color: #262d4c;
+  background-image: url(../img/background-foods-v4.png);
+  background-attachment: fixed;
 }
 
 .conteudo {
   width: 72%;
   background-color: #fff;
-  margin: 120px auto;
+  /* box-shadow: #494949; */
+  margin: auto;
   padding: 50px;
   border-radius: 10px;
 }
@@ -13,7 +16,7 @@ body {
 .cabecalho {
   text-align: center;
   color: #fff;
-  margin: 100px auto;
+  margin: auto;
   padding: 30px;
 }
 
@@ -54,4 +57,9 @@ body {
 
 .fonte--media {
   font-size: 1.7rem;
+}
+
+.titulo {
+  font-size: 1.9rem;
+  margin-top: 50px;
 }
