@@ -94,3 +94,21 @@ body {
 .fotos img:hover {
   filter: none;
 }
+
+.btn-inicio {
+  font-size: 3rem;
+  /* color: #fff; */
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+  background-color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.3;
+}
+
+.btn-inicio:hover {
+  opacity: 1;
+}
