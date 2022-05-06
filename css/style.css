@@ -20,3 +20,27 @@ body {
 .logo img {
   width: 200px;
 }
+
+/* menu feito com lista não ordenada*/
+.navigation li {
+  display: inline-block;
+  width: 150px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.navigation li a:link,
+.navigation li a:visited {
+  color: #808080;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  color: #494949;
+  text-decoration: underline;
+}
+
+.navigation li a:active {
+  color: #262d4c;
+  text-decoration: underline;
+}
