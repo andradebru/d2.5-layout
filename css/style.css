@@ -1,3 +1,7 @@
+body {
+  font-family: "Lora", serif;
+}
+
 .background {
   background-color: #262d4c;
   background-image: url(../img/background-foods-v4.png);
@@ -64,6 +68,10 @@
 .titulo {
   font-size: 1.9rem;
   margin-top: 50px;
+}
+
+.titulo--fonte {
+  font-family: "Exo 2", sans-serif;
 }
 
 .habilidades label {
