@@ -10,11 +10,13 @@ body {
 }
 
 .conteudo {
+  color: #525267;
   line-height: 3rem;
   width: 72%;
   background-color: #fff;
-  /* box-shadow: #494949; */
+  box-shadow: #494949;
   margin: auto;
+  margin-bottom: 120px;
   padding: 50px;
   border-radius: 10px;
 }
@@ -28,6 +30,7 @@ body {
 
 .logo img {
   width: 200px;
+  margin-top: 50px;
 }
 
 /* menu feito com lista não ordenada*/
@@ -61,15 +64,20 @@ body {
   margin-right: 20px;
 }
 
+.tagline {
+  color: rgb(100, 75, 42);
+}
+
 .fonte--media {
   font-size: 1.7rem;
 }
 
 .fonte--grande {
-  font-size: 2.3rem;
+  font-size: 3rem;
 }
 
 .titulo {
+  color: #49496f;
   font-size: 1.9rem;
   margin-top: 50px;
 }
@@ -102,7 +110,6 @@ body {
 .btn-inicio {
   font-size: 3rem;
   border-radius: 50%;
-  /* color: #fff; */
   width: 65px;
   height: 65px;
   line-height: 65px;
@@ -144,5 +151,6 @@ body {
   float: right;
   /* precisa das duas prop abaixo juntas para q o elemeto fique exatamente no centro*/
   margin: -60px auto auto auto;
-  transform: translateX(50%) rotate(45deg);
+  transform: translateX(53%) rotate(45deg);
+  z-index: 0;
 }
