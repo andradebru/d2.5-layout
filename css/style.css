@@ -44,3 +44,14 @@ body {
   color: #262d4c;
   text-decoration: underline;
 }
+
+/* referenciar a tag dentro da classe, ai nao precisa criar mais classes :p */
+.conteudo img {
+  float: left;
+  width: 140px;
+  padding: 20px;
+}
+
+.fonte--media {
+  font-size: 1.7rem;
+}
