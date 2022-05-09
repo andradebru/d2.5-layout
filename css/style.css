@@ -178,10 +178,23 @@ a:visited {
 
   .conteudo {
     box-sizing: border-box;
-    line-height: 1.5rem;
+    line-height: 2rem;
     width: 75%;
     max-width: 720px;
     padding: 40px;
+  }
+
+  .logo img {
+    width: 150px;
+    margin-top: 50px;
+  }
+
+  .navigation {
+    font-size: 0.5rem;
+  }
+
+  .fonte--grande {
+    font-size: 2rem;
   }
 
   .fonte--media {
