@@ -137,6 +137,19 @@ body {
   text-align: center;
 }
 
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #c9c9c9;
+}
+
+a:visited {
+  color: #68668f;
+}
+
 .logotipo {
   color: #2e2d4c;
   position: absolute;
