@@ -183,7 +183,7 @@ a:visited {
   .conteudo {
     box-sizing: border-box;
     line-height: 2rem;
-    width: 75%;
+    width: 85%;
     max-width: 720px;
     padding: 40px;
   }
@@ -194,12 +194,19 @@ a:visited {
   }
 
   .avatar {
+    display: flex;
+    float: none;
+    align-items: center;
+    margin: auto;
+    width: 200px;
   }
 
   .fonte--grande {
     font-size: 2rem;
   }
-
+  .titulo {
+    margin-bottom: 10px;
+  }
   .fonte--media {
     font-size: 1rem;
   }
@@ -210,5 +217,9 @@ a:visited {
     height: auto;
     border-radius: 10px;
     filter: grayscale(0.4);
+  }
+
+  .footer {
+    padding: 20px;
   }
 }
