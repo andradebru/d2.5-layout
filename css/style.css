@@ -72,6 +72,8 @@ body {
 
 .tagline {
   color: rgba(225, 225, 225, 0.803);
+  background-color: #262d4c;
+  display: inline;
 }
 
 .fonte--media {
@@ -112,6 +114,7 @@ body {
 
 .fotos img:hover {
   filter: none;
+  display: inline;
 }
 
 .btn-inicio {
